@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?6h61ud');
+    src:  url('../fonts/icomoon.eot?6h61ud#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?6h61ud') format('truetype'),
+      url('../fonts/icomoon.woff?6h61ud') format('woff'),
+      url('../fonts/icomoon.svg?6h61ud#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-instagram:before {
+    content: "\e900";
+    color: #e4405f;
+  }
+  .icon-viber:before {
+    content: "\e901";
+    color: #665cac;
+  }
+  .icon-check:before {
+    content: "\f00c";
+  }
+  .icon-pencil:before {
+    content: "\f040";
+  }
+  .icon-check-square-o:before {
+    content: "\f046";
+  }
+  .icon-cogs:before {
+    content: "\f085";
+  }
+  .icon-gears:before {
+    content: "\f085";
+  }
+  .icon-trophy:before {
+    content: "\f091";
+  }
+  .icon-phone:before {
+    content: "\f095";
+  }
+  .icon-money:before {
+    content: "\f0d6";
+  }
+  .icon-angle-right:before {
+    content: "\f105";
+  }
+  .icon-rocket:before {
+    content: "\f135";
+  }
+  .icon-dropbox:before {
+    content: "\f16b";
+  }
+  .icon-instagram1:before {
+    content: "\f16d";
+  }
+  .icon-child:before {
+    content: "\f1ae";
+  }
+  .icon-handshake-o:before {
+    content: "\f2b5";
+  }
+  
