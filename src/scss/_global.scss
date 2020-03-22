@@ -14,8 +14,8 @@ html, body{
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  // color: $text;
-  // background-color: $bgColor;
+  color: rgb(68, 16, 16);
+  
 }
 
 ul, ol, li, h1, h2, h3, h4, h5, h6, img, a, p, span {
@@ -26,33 +26,32 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, img, a, p, span {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .container {
-  width: 100%;
-  display: flex;
   max-width: 1125px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-@media screen and (max-width: 1460px) {
-  .container {
-    padding: 0;
-  }
-}
+// @media screen and (max-width: 1460px) {
+//   .container {
+//     padding: 0;
+//   }
+// }
 
-.left__vidgets{
-  flex-grow: 1;
-  flex-basis: 255px;
-  flex-shrink: 0;
-  background-color: white;
-  min-height: 100%;
-  position: relative;
-}
+// .left__vidgets{
+//   flex-grow: 1;
+//   flex-basis: 255px;
+//   flex-shrink: 0;
+//   background-color: white;
+//   min-height: 100%;
+//   position: relative;
+// }
 
-.content__wrapper {
-  flex-grow: 3;
-  flex-basis: 870px;
-  flex-shrink: 0;
-}
+// .content__wrapper {
+//   flex-grow: 3;
+//   flex-basis: 870px;
+//   flex-shrink: 0;
+// }

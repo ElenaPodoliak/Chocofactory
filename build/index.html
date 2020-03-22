@@ -11,6 +11,7 @@
 
 <body>
   <header class="header">
+    <div class="header__wrapper">
     <div class="header__top">
         <div class="container">
             <div class="header__inner">
@@ -29,63 +30,211 @@
         <div class="container">
             <nav class="menu">
                 <ul class="menu__list">
-                    <li><a href="#">Продукция и цены</a></li>
-                    <li><a href="#">Как заказать?</a></li>
-                    <li><a href="#">Почему выбирают нас?</a></li>
-                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#product-price">Продукция и цены</a></li>
+                    <li><a href="#order">Как заказать?</a></li>
+                    <li><a href="#about-us">Почему выбирают нас?</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
                 </ul>
             </nav>
         </div>
     </div>
+</div>
 </header>
 
 
 
   <!-- -------------------------------------- WRITE CODE HERE -------------------------------------- -->
 
-  <section class="slider">
+  <section class="slogan" style="background-image: url(images/bg-1.jpg)">
     <div class="container">
-      <div class="slider__inner">
-        <div class="slider__items">
+      <div class="slogan__inner">
+        <div class="slogan__text">
+          <h1 class="slogan__title">
+            Шоколад ручной работы с Вашим логотипом
+          </h1>
+          <span>Вкусная реклама вашего бизнеса</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="slider__item" style="background-image: url(images/slide_1.png)">
-          <div class="slider__item-title title__sections">
-            <div class="slider__item-text">
-              <h3>Slide one</h3>
-              Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas
-              adolescens vim
-              te,
-              per at tritani aperiri. Adhuc invenire convenire his ea.
-            </div>
+  <section class="product-price">
+    <div class="container">
+      <h2 class="product-price__title" id="product-price">Продукция и цены</h2>
+      <div class="product__inner">
+        <span>
+          Наш шоколад – продукт высочайшего качества. В ассортименте имеется:
+        </span>
+        <div class="product__items">
+
+          <div class="product__item">
+            <div class="product__item-title">Темный шоколад (80% какао)</div>
+            <ul class="item__list">
+              <li>Состав:</li>
+              <li>тертые какао-бобы,</li>
+              <li>какао-масло,</li>
+              <li>тростниковый сахар</li>
+            </ul>
           </div>
-        </div>
-        <div class="slider__item" style="background-image: url(images/slide_2.png)">
-          <div class="slider__item-title title__sections">
-            <div class="slider__item-text">
-              <h3>Slide one</h3>
-              Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas
-              adolescens vim
-              te,
-              per at tritani aperiri. Adhuc invenire convenire his ea.
-            </div>
+          <div class="product__item">
+            <div class="product__item-title">Молочный шоколад (50% какао)</div>
+            <ul class="item__list">
+              <li>Состав:</li>
+              <li>тертые какао-бобы,</li>
+              <li>какао-масло,</li>
+              <li>тростниковый сахар,</li>
+              <li>молоко сухое обезжиренное</li>
+            </ul>
           </div>
+          <div class="product__item">
+            <div class="product__item-title">Белый шоколад (40% какао)</div>
+            <ul class="item__list">
+              <li>Состав:</li>
+              <li>какао-масло,</li>
+              <li>тростниковый сахар</li>
+              <li>молоко сухое обезжиренное</li>
+            </ul>
+          </div>
+
         </div>
-        <div class="slider__item" style="background-image: url(images/slide_3.png)">
-          <div class="slider__item-title title__sections">
-            <div class="slider__item-text">
-              <h3>Slide one</h3>
-              Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas
-              adolescens vim
-              te,
-              per at tritani aperiri. Adhuc invenire convenire his ea.
-            </div>
+      </div>
+      <div class="price__inner">
+        <span>
+          Брендированный шоколад для Вас мы можем изготовить в следующих форматах:
+        </span>
+        <div class="price__items">
+
+          <div class="price__item">
+            <img src="images/mini-choco.png" alt="mini-choco">
+            <div class="price__item-title">Мини-плитка, вес 5 г</div>
+            <ul class="item__list">
+              <li>Цена</li>
+              <li>50-200 шт – 7 грн/шт</li>
+              <li>200-500 шт – 6 грн/шт</li>
+              <li>500-1000 шт – 5,25 грн/шт</li>
+              <li>от 1000 шт – 4,85 грн/шт</li>
+            </ul>
+          </div>
+          <div class="price__item">
+            <img src="images/choco.png" alt="choco">
+            <div class="price__item-title">Плитка, вес 90 г</div>
+            <ul class="item__list">
+              <li>Цена</li>
+              <li>20-50 шт – 70 грн/шт</li>
+              <li>50-100 шт – 60 грн/шт</li>
+              <li>100-200 шт – 55 грн/шт</li>
+              <li>от 200 шт – 50 грн/шт</li>
+            </ul>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="order">
+    <div class="container">
+      <div class="order__inner">
+        <h2 class="order__title" id="order">Как заказать?</h2>
+        <div class="order__items">
+
+          <div class="order__item">
+            <span class="icon-pencil"></span>
+            <div class="order__item-title">Разработка макета</div>
+            <p>На основе Вашего логотипа мы разрабатываем макет упаковки согласно всем Вашим пожеланиям.</p>
+          </div>
+          <div class="order__item">
+            <span class="icon-cogs"></span>
+            <div class="order__item-title">Размещение заказа в работу</div>
+            <p>После согласования макета упаковки, вида шоколада и необходимого количество изделий, вносится минимальная
+              предоплата, и заказ размещается в производство. Срок выполнения зависит от его объема и может составлять
+              от 1-2 дней до рабочей недели.</p>
+          </div>
+          <div class="order__item">
+            <span class="icon-rocket"></span>
+            <div class="order__item-title">Отправка шоколада</div>
+            <p>Точно в оговоренный срок мы отправляем шоколад с Вашим логотипом в любую точку Украины.</p>
+          </div>
+
+        </div>
 
       </div>
     </div>
   </section>
+
+  <section class="about-us">
+    <div class="container">
+      <div class="about-us__inner">
+        <h2 class="about-us__title" id="about-us">Почему выбирают нас?</h2>
+        <div class="about-us__items">
+
+          <div class="about-us__item">
+            <div class="item__title icon-handshake-o">Работаем с небольшими партиями</div>
+            <p class="item__text">Если Вам не требуется большой объем продукции, либо вы хотите взять пробную партию –
+              это не проблема, мы с радостью возьмемся даже за самый маленький заказ.
+            </p>
+          </div>
+
+          <div class="about-us__item">
+            <div class="item__title icon-check-square-o">Качество шоколада</div>
+            <p class="item__text">Главное наше отличие и достоинство – наш шоколад. Ингредиенты наивысшего качества,
+              выверенная рецептура и ручной труд наших шоколатье позволили создать продукт премиум-класса. В его составе
+              –
+              только натуральные какао-бобы и тростниковый сахар. Вкус нашего шоколада действительно особенный и
+              запоминающийся – это лучшая реклама для Вашего бренда.
+            </p>
+          </div>
+
+          <div class="about-us__item">
+            <div class="item__title icon-money">Минимальная предоплата</div>
+            <p class="item__text">Для размещения заказа в производство достаточно 30% предоплаты.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <div class="container">
+      <div class="reviews__inner">
+        <h2 class="reviews__title" id="reviews">Отзывы наших клиентов</h2>
+        <div class="reviews__items">
+
+          <div class="reviews__item">
+            <a href="facebook.com/gennadiy.bozhenko"><img class="item__avatar" src="images/avatar-1.png"
+                alt="avatar"></a>
+            <span class="item__name">Геннадий Боженко</span>
+            <a href="facebook.com/gennadiy.bozhenko" class="item__link">facebook.com/gennadiy.bozhenko</a>
+            <p class="item__text">
+              Шоколад действительно отличный - и в целом по работе все выполняется быстро и с учетом
+              всех пожеланий заказчика.
+            </p>
+          </div>
+          <div class="reviews__item">
+            <a href="facebook.com/A.Korshynova"><img class="item__avatar" src="images/avatar-2.png" alt="avatar"></a>
+            <span class="item__name">A.Korshynova</span>
+            <a href="facebook.com/A.Korshynova" class="item__link">facebook.com/A.Korshynova</a>
+            <p class="item__text">
+              Взяла один раз шоколадки ради эксперимента – отказаться теперь невозможно) Уже многие клиенты, заходя ко
+              мне в салон, первым делом интересуются: «Есть ли шоколад?»)) В общем, всем рекомендую!
+            </p>
+          </div>
+          <div class="reviews__item">
+            <a href="www.silicon-oil.com.ua"><img class="item__avatar" src="images/avatar-3.png" alt="avatar"></a>
+            <span class="item__name">Сергей Романенко</span>
+            <a href="www.silicon-oil.com.ua" class="item__link">www.silicon-oil.com.ua</a>
+            <p class="item__text">
+              Заказывали себе брендированный шоколад к Новому Году – приятно удивил сервис и оперативность работы, ну и
+              конечно сами шоколадки – выше всех похвал!
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
   <!-- -------------------------------------- STOP WRITE CODE -------------------------------------- -->
 

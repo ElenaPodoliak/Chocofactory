@@ -13,7 +13,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
 .header__inner {
@@ -69,7 +68,12 @@
 }
 .header__menu {
     height: 70px;
+    width: 100%;
     background-color: #BC816B;
+    // position: fixed;
+    // top: 0;
+    // z-index: 100;
+
     .menu__list li{
         list-style: none;
         text-transform: uppercase;
@@ -90,22 +94,193 @@
 
 //end header
 //start slider
-
-.slider__item {
-    width: 603px;
-    height: 603px;
+.slogan {
+    min-height: 700px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
+    margin-bottom: 40px;
 }
 
-//end slider
+.slogan__text {
+    text-align: right;
+    color: #f5f5f5;
+    padding-top: 200px;  
 
- 
+    .slogan__title {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    span {
+         font-size: 17px;
+     }
+}
+
+//start product-price
+.product-price {
+    color: rgb(68, 16, 16);
+}
+h2 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    font-size: 29px;
+}
+
+.product__inner span,
+.price__inner span {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.product__items {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    padding-bottom: 70px;
+}
+    .product__item-title {
+        font-size: 18px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #d1caca;
+    }
+    .item__list {
+        position: relative;
+        min-height: 160px;
+        padding-top: 15px;
+
+        li {
+        list-style: none;
+        padding-bottom: 7px;
+        padding-left: 15px;
+
+        & + li::before {
+            content: "\f105";
+            font-family: "icomoon";
+            position: absolute;
+            left: 5px;
+            
+        }
+        }
+    }
+    .price__items {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+    .price__item img {
+        width: 400px;
+    }
+    .price__item-title {
+        text-align: right;
+    }
 
 
+//start order
+.order  {
+    background-color: #BC816B;
+    color: #f5f5f5;
+    &__inner {
+        padding-top: 27px;
+    }
+}
+.order__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 170px;
+}
 
+.order__item {
+    width: 33.3%;
+    & + div {
+        margin-left: 35px;
+    }
+    span::before {
+        padding-left: 50px;
+        font-size: 57px;
+    }
+    .order__item-title {
+        padding-top: 45px;
+        padding-bottom: 8px;
+        font-size: 19px;
+        font-weight: 500;
+        border-bottom: 1px solid #d1caca;
+    }
+    p {
+        padding-top: 15px;
+    }
+}
+//end order
+//start about-us
+
+.about-us__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 170px;
+}
+.about-us__item {
+        width: 30%;
+
+        & + div {
+            margin-left: 35px;
+        }
+    }
+    .item__title {
+        font-family: 'Roboto', sans-serif !important;
+        padding-top: 45px;
+        padding-bottom: 8px;
+        padding-left: 32px;
+        font-size: 18px;
+        font-weight: 500;
+        border-bottom: 1px solid #d1caca;
+        position: relative;
+        
+        &::before {
+            font-family: 'icomoon';
+            position: absolute;
+            left: 0px;
+        }
+    }
+    p {
+        padding-top: 15px;
+        line-height: 24px;
+    }
+
+//end about-us
+
+//
+.reviews {
+    background-color:#BC816B;
+    color: #f5f5f5;
+}
+.reviews__items {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+   
+}
+
+.reviews__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3%;
+    & + div {
+        margin-left: 35px;
+    }
+
+    .item__avatar {
+        border-radius: 50%;
+    }
+}
+
+//
 
 
 
