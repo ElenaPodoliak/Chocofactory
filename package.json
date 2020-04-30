@@ -25,7 +25,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "imagemin-jpeg-recompress": "^6.0.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "sass": "^1.23.0",
     "gulp-favicons": "^2.3.1"
   },
